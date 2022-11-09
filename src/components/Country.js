@@ -8,10 +8,8 @@ export const Country = () => {
   const [population, setPopulation] = useState();
   const [error, setError] = useState();
   let { country } = useParams();
-  console.log(country);
-  useEffect(() => {
-    // setCapital(response.data[0].capital);
-  }, [response]);
+
+  useEffect(() => {}, [response]);
   useEffect(() => {
     axios({
       method: "get",

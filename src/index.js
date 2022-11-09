@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import { Exercice1 } from "./exercices/Exercice1";
 import { Exercice2 } from "./exercices/Exercice2";

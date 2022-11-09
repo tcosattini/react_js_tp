@@ -5,7 +5,6 @@ import { Exercice4 } from "./Exercice4";
 
 export const Exercice7 = (props) => {
   const { refs } = props;
-  console.log(refs);
   return (
     <>
       <CustomBreadcrumbs currentPage={"Exercice 7"} />
