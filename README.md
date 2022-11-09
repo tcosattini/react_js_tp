@@ -1,2 +1,11 @@
-# reactjstp01M08D08
-Created with CodeSandbox
+## TP ReactJS Thibault COSATTINI
+
+```
+npm i
+```
+
+```
+npm start
+```
+
+Server listening on port 3000
