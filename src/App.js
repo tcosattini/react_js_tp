@@ -1,19 +1,19 @@
 import React from "react";
-
 import "./styles.css";
-import CustomButton from "./CustomButton";
+import { Outlet } from "react-router-dom";
+
+import PermanentDrawerLeft from "./components/nav_menu/PermanentDrawerLeft";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>TP React</h1>
-      <p>Start editing to see some magic happen!</p>
-      <CustomButton
-        text="Click-me !"
-        action={() => alert("You just click me :o")}
-      />
-      <br />
-    </div>
+    <>
+      <>
+        <div className="App">
+          <PermanentDrawerLeft />
+          <Outlet />
+        </div>
+      </>
+    </>
   );
 };
 
