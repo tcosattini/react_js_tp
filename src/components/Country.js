@@ -11,6 +11,7 @@ export const Country = () => {
 
   useEffect(() => {}, [response]);
   useEffect(() => {
+    error && setError();
     axios({
       method: "get",
       baseURL: `https://restcountries.com`,
