@@ -7,5 +7,4 @@ npm i
 ```
 npm start
 ```
-
-Server listening on port 3000
+server listening on port 3000
